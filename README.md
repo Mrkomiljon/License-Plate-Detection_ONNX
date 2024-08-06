@@ -1,9 +1,13 @@
 # License-Plate-Detection_ONNX
 
-![Downloads](https://img.shields.io/github/downloads/Mrkomiljon/License-Plate-Detection_ONNX/total) [![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/yakhyo/yolov5-license-plate-detection)
+![Downloads](https://img.shields.io/github/downloads/Mrkomiljon/License-Plate-Detection_ONNX/total) [![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/Mrkomiljon/License-Plate-Detection_ONNX)
 
-<video controls autoplay loop src="https://github.com/user-attachments/assets/23bed56d-b49c-4606-84c9-1797c479f187" muted="false" width="100%"></video>
-Link: https://www.pexels.com/video/traffic-flow-in-the-highway-2103099/
+<video controls autoplay loop src="https://github.com/user-attachments/assets/cc641c10-164a-47be-acff-c461f0c386c3" muted="false" width="100%"></video>
+
+
+
+
+Link: https://www.pexels.com/video/motor-vehicles-traveling-on-a-highway-5473757/
 
 This repository contains code and instructions for performing object detection using YOLOv5 inference with ONNX Runtime.
 
@@ -18,8 +22,8 @@ This repository contains code and instructions for performing object detection u
 #### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/yolov5-license-plate-detection.git
-cd yolov5-license-plate-detection
+git clone https://github.com/yourusername/License-Plate-Detection_ONNX.git
+cd License-Plate-Detection_ONNX
 ```
 
 #### Install Required Packages
