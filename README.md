@@ -37,5 +37,45 @@ pip install -r requirements.txt
 
 ## Usage
 
-Before running inference, you need to download weights of the YOLOv5 model weights in ONNX format.
+Before running inference, you need to download weights of the YOLOv5 model [weights](https://drive.google.com/drive/folders/1UvONZS20f_za1XJjgHBnUO5XtoUJISPd?usp=sharing) in ONNX format.
+
+
+#### Inference
+
+```bash
+python main.py --weights weights/yolov5s.onnx --source assets/vid_input.mp4 # video
+                                              --source 0 --view-img # webcam and display
+                                              --source assets/img_input.jpg # image
+```
+
+- To save results add the `--save-img` argument and results will be saved under the `runs` folder
+- To display video add the `--view-img` argument
+
+**Command Line Arguments**
+
+```
+usage: main.py [-h] [--weights WEIGHTS] [--source SOURCE] [--img-size IMG_SIZE [IMG_SIZE ...]] [--conf-thres CONF_THRES] [--iou-thres IOU_THRES]
+               [--max-det MAX_DET] [--save-img] [--view-img] [--project PROJECT] [--name NAME]
+
+options:
+  -h, --help            show this help message and exit
+  --weights WEIGHTS     model path
+  --source SOURCE       Path to video/image/webcam
+  --img-size IMG_SIZE [IMG_SIZE ...]
+                        inference size h,w
+  --conf-thres CONF_THRES
+                        confidence threshold
+  --iou-thres IOU_THRES
+                        NMS IoU threshold
+  --max-det MAX_DET     maximum detections per image
+  --save-img            Save detected images
+  --view-img            View inferenced images
+  --project PROJECT     save results to project/name
+  --name NAME           save results to project/name
+```
+
+## Reference
+
+1. https://github.com/ultralytics/yolov5
+
 
