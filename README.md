@@ -2,8 +2,11 @@
 
 ![Downloads](https://img.shields.io/github/downloads/Mrkomiljon/License-Plate-Detection_ONNX/total) [![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/Mrkomiljon/License-Plate-Detection_ONNX)
 
-<video controls autoplay loop src="https://github.com/user-attachments/assets/cc641c10-164a-47be-acff-c461f0c386c3" muted="false" width="100%"></video>
+<video controls autoplay loop src="https://github.com/user-attachments/assets/14280f75-b719-46c3-a5bf-a83d8330645e" muted="false" width="100%"></video>
 
+
+
+<video controls autoplay loop src="https://github.com/user-attachments/assets/cc641c10-164a-47be-acff-c461f0c386c3" muted="false" width="100%"></video>
 
 
 
