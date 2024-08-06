@@ -13,7 +13,7 @@ This repository contains code and instructions for performing object detection u
 
 ## Features
 
-- Inference using ONNX Runtime with GPU (tested on Ubuntu).
+- Inference using ONNX Runtime with GPU (tested on Windows).
 - Easy-to-use Python scripts for inference.
 - Supports multiple input formats: image, video, or webcam.
 
@@ -22,7 +22,7 @@ This repository contains code and instructions for performing object detection u
 #### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/License-Plate-Detection_ONNX.git
+git clone https://github.com/Mrkomiljon/License-Plate-Detection_ONNX.git
 cd License-Plate-Detection_ONNX
 ```
 
